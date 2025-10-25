@@ -1,8 +1,8 @@
-**URL SHORTENER BACKEND APP**
+# URL SHORTENER BACKEND APP
 
 - The URL Shortener Backend is a production-ready web service that converts long URLs into short, shareable links while tracking engagement metrics. The system is built with Spring Boot 3.5.6 and Java 21, using PostgreSQL for persistence and JWT tokens for stateless authentication.
 
-- Primary Capabilities :
+**- Primary Capabilities :**
 
 1. URL Shortening	Generates 8-character alphanumeric short codes for any URL
 2. Click Tracking	Records every click with timestamp for analytics
@@ -10,7 +10,7 @@
 4. Analytics Dashboard	Time-series click data aggregated by date
 5. Public Redirection	Fast, unauthenticated access to shortened URLs
 
-- Technology Stack
+**- Technology Stack**
 
 1. Spring Boot	3.5.6	Application framework
 2. Java	21	Runtime platform
@@ -18,13 +18,13 @@
 4. PostgreSQL
 5. Render for deployment
 
-- Public Endpoints (No Authentication Required)
+**- Public Endpoints (No Authentication Required)**
 
 1. /{shortUrl}	GET	Redirect to original URL
 2. /api/auth/public/register	POST	User registration
 3. /api/auth/public/login	POST	User login (returns JWT)
 
-- Protected Endpoints (JWT Required)
+**- Protected Endpoints (JWT Required)**
 
 1. /api/urls/shorten	POST	Create shortened URL
 2. /api/urls	GET	Get all URLs for authenticated user
