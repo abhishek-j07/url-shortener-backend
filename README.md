@@ -12,13 +12,11 @@
 
 - Technology Stack
 
-1. Core Framework
-2. Component	Version	Purpose
-3. Spring Boot	3.5.6	Application framework
-4. Java	21	Runtime platform
-5. Maven	3.9.11	Build tool
-6. PostgreSQL
-7. Render for deployment
+1. Spring Boot	3.5.6	Application framework
+2. Java	21	Runtime platform
+3. Maven	3.9.11	Build tool
+4. PostgreSQL
+5. Render for deployment
 
 - Public Endpoints (No Authentication Required)
 
